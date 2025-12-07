@@ -39,9 +39,19 @@ A desktop application that fetches YouTube video transcripts and converts them i
     ```bash
     python main.py
     ```
+    <img width="1366" height="730" alt="image" src="https://github.com/user-attachments/assets/cce83be7-72eb-413b-87a2-ddab967ffed9" />
+
 2.  Paste a YouTube URL and click **Fetch Transcript**.
+
+    <img width="1366" height="730" alt="image" src="https://github.com/user-attachments/assets/11b79554-6cf4-475b-980b-f178edea6b27" />
+
 3.  Select a style and click **Generate**.
+
+    <img width="1366" height="732" alt="image" src="https://github.com/user-attachments/assets/eb759986-bd12-44cb-af80-d3731af9b4c2" />
+     
 4.  Copy / Save the blog post locally.
+
+   <img width="1366" height="730" alt="image" src="https://github.com/user-attachments/assets/f3e7a832-e6b5-4548-a692-736af056e1ad" />
 
 ## License
 
