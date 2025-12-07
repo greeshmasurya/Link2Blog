@@ -1,4 +1,4 @@
-# YouTube to Blog Converter
+# YouTube Video to Blog Converter
 
 A desktop application that fetches YouTube video transcripts and converts them into structured blog posts using AI.
 
