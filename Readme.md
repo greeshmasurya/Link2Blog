@@ -9,6 +9,32 @@ A desktop application that fetches YouTube video transcripts and converts them i
 - **History & Management:** Tracks generated files with a built-in history viewer.
 - **Markdown Support:** Renders output in rich HTML/Markdown.
 
+## PROBLEM STATEMENT
+Manually converting YouTube video transcripts into well-structured blog posts demands considerable
+time and effort. It involves organizing raw transcripts, formatting them cleanly, and adapting the tone or
+writing style. For creators, educators, and bloggers, an automated tool that fetches transcripts and
+transforms them into polished blog posts can significantly improve workflow efficiency.
+
+## APPROACH / METHODOLOGY
+
+### Architecture
+- **GUI Framework:** wxPython for the desktop interface  
+- **API Integration:** Gradient AI API (This can be changed to any other popular providers too; the format is OpenAI-compatible.)  
+- **Modular Design:** Individual modules for transcript handling, AI processing, storage, and UI  
+
+### Data Structures Used
+- **Lists** → storing generation history  
+- **Dictionaries / JSON** → API requests, responses, config files  
+- **Strings** → formatting and processing transcript text  
+
+### Workflow
+1. User enters a YouTube video URL  
+2. Transcript retrieved via `youtube-transcript-api`  
+3. Transcript processed and sent to AI with selected writing style  
+4. AI returns a structured blog post (title, sections, insights, conclusion)  
+5. Output displayed in HTML/Markdown format  
+6. User can save with custom filename and folder location  
+
 ## Setup
 
 1.  **Clone the Repository:**
@@ -33,7 +59,8 @@ A desktop application that fetches YouTube video transcripts and converts them i
     ```
     (You can modify `ai.py` to use other AI providers too!)
 
-## Usage
+
+### SAMPLE/DEMO Snapshots.
 
 1.  Run the application:
     ```bash
@@ -52,6 +79,19 @@ A desktop application that fetches YouTube video transcripts and converts them i
 4.  Copy / Save the blog post locally.
 
     <img width="1366" height="730" alt="image" src="https://github.com/user-attachments/assets/f3e7a832-e6b5-4548-a692-736af056e1ad" />
+
+## CHALLENGES FACED
+1. Formatting raw data received from the AI  
+2. Designing a minimal yet easy-to-understand/use GUI  
+
+## SCOPE FOR IMPROVEMENT
+1. Add multilingual transcript support  
+2. Enable batch processing for multiple URLs  
+3. Support additional AI model providers directly  
+4. Allow exporting to PDF, DOCX, and HTML  
+5. Add custom user-defined templates  
+6. Build analytics dashboard for history and insights  
+7. Introduce cloud sync for storing generated blogs  
 
 ## License
 
