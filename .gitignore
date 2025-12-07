@@ -1,0 +1,6 @@
+.env
+generated_blogs/
+history.json
+__pycache__/
+.venv/
+.vscode/
