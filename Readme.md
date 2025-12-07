@@ -51,7 +51,7 @@ A desktop application that fetches YouTube video transcripts and converts them i
      
 4.  Copy / Save the blog post locally.
 
-   <img width="1366" height="730" alt="image" src="https://github.com/user-attachments/assets/f3e7a832-e6b5-4548-a692-736af056e1ad" />
+    <img width="1366" height="730" alt="image" src="https://github.com/user-attachments/assets/f3e7a832-e6b5-4548-a692-736af056e1ad" />
 
 ## License
 
