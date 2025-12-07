@@ -14,7 +14,7 @@ A desktop application that fetches YouTube video transcripts and converts them i
 1.  **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/LonelyGuy-SE1/Link2Blog.git
+    git clone https://github.com/greeshmasurya/Link2Blog.git
     cd Link2Blog
     ```
 
